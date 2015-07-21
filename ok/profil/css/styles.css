@@ -1,0 +1,223 @@
+.ecran img a {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    max-width: 100%;
+}
+
+body
+{
+    background: url(../img/background.jpg) no-repeat;
+    background-position: center top;
+}
+
+.game
+{
+    width: 1300px;
+    margin: auto;
+}
+
+.inventaire, .quetes
+{
+    width: 200px;
+    height: 450px;
+    float: left;
+    margin-top: 230px;
+}
+
+.inventaire
+{
+    margin-left: 70px;
+    overflow:scroll;
+}
+
+.quetes
+{
+    margin-right: 73px;
+}
+
+.option a
+{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.game .quetes p
+{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: grey;
+    text-align: justify;
+}
+
+.ecran
+{
+    width: 750px;
+    height: 500px;
+    float: left;
+    margin-top: 175px;
+    background-color: black;
+}
+
+.interaction
+{
+    width: 750px;
+    height: 200px;
+    box-sizing: border-box;
+    float: left;
+    z-index: -5;
+}
+
+.affiche
+{
+    width: 740px;
+    height: 705px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.option, .info
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+}
+
+.option
+{
+    margin-right: 73px;
+}
+
+.info
+{
+    margin-left: 70px;
+}
+
+.info a
+{
+    font-family: 'Slabo 27px', serif;
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 40px;
+    color: #d79e06;
+    text-decoration: none;
+}
+
+.info img
+{
+    width: 50px;
+    margin-left: 70px;
+}
+
+.game h3
+{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Slabo 27px', serif;
+    color: #d79e06;
+    margin-bottom: 30px;
+}
+
+.game p
+{
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+.game h5
+{
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    width: 685px;
+}
+
+.back
+{
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    background-color: #222222;
+    border: 1px solid #d79e06;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.game .inventaire img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.game .inventaire li
+{
+    display: inline-block;
+}
+
+.game .affiche a
+{
+    color: blue;
+    font-size: 18px;
+}
+
+
+.game .affiche img:hover
+{
+    cursor:cell;
+}
+
+
+.game .inventaire li
+{
+    border: 2px solid #d79e06;
+    padding-top : 7px;
+    padding-right: 7px;
+    margin: 10px;
+}
+
+.game .inventaire ul
+{
+    text-align: center;
+}
+
+a span
+{
+    position:absolute;  
+    color:white;
+    background: #222222;
+    padding:5px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    opacity:0;
+    z-index: 3000000;
+}
+
+a:hover span
+{
+    transition:all .6s;
+    opacity:1;
+}
+
+.suivant
+{
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    background-color: #222222;
+    border: 1px solid #d79e06;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.game h5 em
+{
+    font-family: 'Slabo 27px', serif;
+    color: grey;
+}
